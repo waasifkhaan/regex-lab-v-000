@@ -7,12 +7,11 @@ text.scan(/un\S+ing/)
 end
 
 def words_five_letters_long(text)
-if text.scan(/\w{5}/)? true : false
-end
+text.scan(/\w{5}/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+text.scan(/\S+/)
 end
 
 def valid_phone_number?(phone)
